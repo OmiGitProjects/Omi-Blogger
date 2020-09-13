@@ -1,0 +1,14 @@
+body{
+    background: #7d00d1;
+}
+
+#btn_create_a_blog{
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(225deg, #7100bc, #8600e0);
+    box-shadow:  -5px 5px 27px #53008a, 
+                 5px -5px 27px #a800ff;
+    
+    border-radius: 10px;
+}

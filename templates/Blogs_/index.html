@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="main">
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="font-weight-bold text-white">OMI BLOGGER</h1>
+                <h2 class='text-light font-weight-bold'>Publish your passions, your way</h2>
+                <p class="lead text-light font-weight-bold">Create a unique and beautiful blog. It’s easy and free.</p>
+                <p style="margin-top: 35px;">
+                    <a href="#" id='btn_create_a_blog'>Create a Blog</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-8 mt-5">
+                <div class="head">
+                    <h3 class="text-white">Choose the perfect design : </h3>
+                    <p class="text-white">
+                        Create a beautiful blog that fits your style. Choose from a selection of easy-to-use templates – all with flexible layouts and hundreds of background images – or design something new.
+                    </p>
+
+                    <h3 class="text-white mt-2">
+                        Know your audience
+                    </h3>
+                    <p class="text-white">
+                        Find out which posts are a hit with Blogger’s built-in analytics. You’ll see where your audience is coming from and what they’re interested in. You can even connect your blog directly to Google Analytics for a more detailed look.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="img">
+                    <img src="{% static 'images/blog_1.png' %}" alt="" height="400px" >
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{% endblock content %}

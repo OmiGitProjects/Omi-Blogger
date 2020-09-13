@@ -1,0 +1,19 @@
+.navbar{
+    background: linear-gradient(145deg, #8600e0, #7100bc);
+    box-shadow:  6px 6px 9px #5d009b, 
+                 -6px -6px 9px #9e00ff;
+    padding: 20px 10px;
+}
+
+#navbar-title{
+    font-family: 'Satisfy', cursive;
+}
+
+ul{
+    font-family: 'Mukta', sans-serif;
+}
+
+.navbar-nav .nav-item > .nav-link{
+    color: rgb(222, 213, 135);
+    font-size: 17px;
+}
